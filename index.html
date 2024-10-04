@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: cadetblue;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            font-size: 20px;
+            color: black;
+            
+        }
+        nav ul li a{
+         list-style-type:none;
+         text-decoration:none;
+         padding: 20px 30px;
+         display: flex;
+    
+        }
+        nav ul li{
+            display: inline-block;
+        }
+        li:hover{
+            background-color:grey;
+        }
+        .section1{
+            background-image: url(foodpics/burger2.jpg);
+            width: 100%;
+            height: 130vh;
+            color: white;
+            display: flex;
+            align-items:flex-end;
+            background-repeat:no-repeat;
+            background-size: cover;
+            font-size: 4em;
+            color: black;
+            
+        }
+        .section2{
+         display: flex; 
+         margin: 100px 50px; 
+         
+         
+        }
+        .el2{
+            flex-basis: 50%;
+        }
+    .el3{
+        flex-basis: 50%;
+    }
+    
+        
+        
+    
+    .el3a{
+        font-size: 3em;
+        padding: 40px;
+        align-self:center;
+    }
+    .el3b{
+        font-size: 2em;
+        padding: 20px;
+        align-self: center;
+    }
+    .el3c{
+        font-size: 1mem;
+        padding: 20px;
+        align-self: center;
+    }
+    .section3{
+        display: flex;
+        margin: 100px 50px;
+    }
+    .el4{flex-basis: 50%;
+        line-height: 2;
+        font-size: 2em;
+        align-self: center;
+        padding: 20px;
+
+    }
+    .el5{
+        flex-basis: 50%;
+    }
+    .el4a{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .input{
+        width: 100%;
+        font-size: 20px;
+        
+    }
+    input:hover{
+        background-color: rgb(116, 80, 209);
+        color:white;
+    }
+    .footer{
+        display: flex;
+        justify-content: center ;
+        background-color: rgb(244, 236, 236);
+        height:50px;
+        width: 100%;
+    }
+    
+
+    </style>
+</head>
+<body>
+     
+        <nav>
+            <div class="el1"> gourmet au catering</div>
+            
+            <ul>
+                <li><a href="#catering">gourmet au catering</a></li>
+                <li><a href="#adout">about</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+
+        </nav>
+     <div class="section1">
+        Le catering
+     </div>
+
+
+     <div class="section2" id="about">
+        <div class="el2"><img src="foodpics/food1.webp" alt="" width=""></div>
+        <div class="el3"> 
+            <div class="el3a"> about catering</div>
+            <div class="el3b">tradition since 1889</div>
+            <div class="el3c">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+
+               The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</div>
+
+                
+                
+                
+        </div>
+     </div>
+     <div class="section3" id="menu">
+        <div class="el4">
+            <div class="el4a">our restarent specials</div>
+            <div> 1.hyderbad chicken bum biriyani</div>
+            <div> 2.nalli goast biriyani</div>
+            <div>3.chicken kababs</div>
+            <div>4.paneer tika</div>
+            <div>5.mashroom fry</div>
+            <div>6.chicken soup</div>
+            <div>7.chicken fry pices biriyani</div>
+        </div>
+<div class="el5"><img src="foodpics/food2.jpg" alt="" width="100%" height="100%"></div>
+     </div>
+<hr>
+<br>
+<br>
+
+     <div class="section4" id="contact">
+        <div class="el6">
+            <form action="">
+                <h1>contact us</h1>
+                <br>
+                <br>
+                <input type="text" class="input" placeholder="book your bench">
+                <br>
+                <br>
+                <input type="text" placeholder="name" class="input">
+                <br>
+                <br>
+
+                <input type="text" placeholder="phone number" class="input">
+                <br><br>
+                <input type="text" placeholder="special accation" class="input">
+                <br><br>
+                <input type="text" placeholder="any special food order" class="input">
+                <br>
+                <br>
+                 <button>send message</button>
+            </form>
+            <br><br><br>
+            <br>
+            <div class="footer">
+                powered by <a href="https://www.w3schools.com/w3css/default.asp"> w3.css</a>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
